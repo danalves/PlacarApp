@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PlacarApp</string>
+    <string name="label_titulo">TIMES</string>
+    <string name="label_developed_by">Desenvolvido por Danilo Alves Vieira</string>
+</resources>
