@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_developed_by">Desenvolvido por Danilo Alves Vieira</string>
+    <string name="label_gol">GOL!</string>
+    <string name="label_limpar">LIMPAR</string>
+    <string name="label_titulo">TIMES</string>
+</resources>

@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">PlacarApp</string>
-    <string name="label_titulo">TIMES</string>
-    <string name="label_developed_by">Desenvolvido por Danilo Alves Vieira</string>
-    <string name="placar_inicial">0</string>
-    <string name="label_gol">GOL!</string>
-    <string name="label_limpar">LIMPAR</string>
+    <string name="app_name" translatable="false">PlacarApp</string>
+    <string name="label_titulo">TEAMS</string>
+    <string name="label_developed_by">Developed by Danilo Alves Vieira</string>
+    <string name="placar_inicial" translatable="false">0</string>
+    <string name="label_gol">GOAL!</string>
+    <string name="label_limpar">CLEAN</string>
 </resources>
