@@ -9,44 +9,71 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.logonrm.placarapp.GameActivity">
+    tools:context="com.example.logonrm.placarapp.GameActivity"
+    android:gravity="center_vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
 
         <TextView
             android:id="@+id/tvTimeCasa"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:gravity="center"
+            style="@style/nome_time"
             tools:text="TIMECASA"/>
 
         <TextView
             android:id="@+id/tvTimeVisitante"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:gravity="center"
+            style="@style/nome_time"
             tools:text="TIMEVISITANTE"/>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
 
+        <TextView
+            android:id="@+id/tvPlacarTC"
+            style="@style/placar"/>
+
+        <TextView
+            android:id="@+id/tvPlacarTV"
+            style="@style/placar"/>
 
     </LinearLayout>
-
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
+        <Button
+            android:id="@+id/btGolTC"
+            style="@style/botao_gol"
+            android:onClick="pontuarTC"/>
+
+        <Button
+            android:id="@+id/btGolTV"
+            style="@style/botao_gol"
+            android:onClick="pontuarTV"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btLimpar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_limpar"
+            android:textSize="20sp"
+            android:onClick="limpar"/>
 
     </LinearLayout>
 
